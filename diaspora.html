@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wakah Errands - Diaspora Concierge Services</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      /* Header Styles */
+      header {
+        background-color: #1e90ff;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+      header h1 {
+        margin: 0;
+      }
+      header p {
+        font-size: 1.2em;
+      }
+
+      /* Hero Section */
+      .hero {
+        background-image: url("https://via.placeholder.com/1500x600");
+        background-size: cover;
+        background-position: center;
+        color: rgb(17, 17, 17);
+        text-align: center;
+        padding: 100px 20px;
+      }
+      .hero h2 {
+        font-size: 3em;
+        margin: 0;
+      }
+      .hero p {
+        font-size: 1.5em;
+        margin: 20px 0;
+      }
+
+      /* Container */
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 0;
+      }
+
+      /* Services Section */
+      .services {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .service-box {
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        flex: 1 1 30%;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+      }
+      .service-box:hover {
+        transform: translateY(-10px);
+      }
+      .service-box h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+      .service-box p {
+        font-size: 1em;
+        line-height: 1.6;
+        color: #555;
+      }
+
+      /* Testimonials Section */
+      .testimonials {
+        background-color: #f8f8f8;
+        padding: 40px 0;
+        text-align: center;
+      }
+      .testimonial-box {
+        display: inline-block;
+        width: 30%;
+        padding: 20px;
+        margin: 0 10px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+      .testimonial-box p {
+        font-style: italic;
+      }
+
+      /* Contact Us Section */
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .contact-form button {
+        padding: 10px;
+        font-size: 1.2em;
+        background-color: #1e90ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .contact-form button:hover {
+        background-color: #007bff;
+      }
+
+      /* Pricing Section */
+      .pricing {
+        background-color: #fff;
+        padding: 40px 0;
+        text-align: center;
+      }
+      .pricing-table {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .pricing-box {
+        background-color: #f4f4f4;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 200px;
+        text-align: center;
+      }
+      .pricing-box h3 {
+        margin-bottom: 15px;
+        font-size: 1.5em;
+      }
+      .pricing-box p {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+      }
+      .pricing-box button {
+        padding: 10px 20px;
+        background-color: #1e90ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .pricing-box button:hover {
+        background-color: #007bff;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #1e90ff;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Wakah Errands</h1>
+      <p>Your Trusted Diaspora Concierge Service</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Bringing the Comfort of Home, No Matter the Distance</h2>
+      <p>
+        Let us handle your errands while you focus on what matters most to you.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <div class="container">
+      <section>
+        <h2>Our Top 6 Diaspora Errands Services</h2>
+        <div class="services">
+          <div class="service-box">
+            <h3>Bill Payments</h3>
+            <p>
+              We’ll handle all your bill payments, including utilities, taxes,
+              and subscriptions, on time and accurately.
+            </p>
+          </div>
+          <div class="service-box">
+            <h3>Property Management</h3>
+            <p>
+              Ensure that your real estate is well-kept, with regular updates
+              and maintenance handled by our team.
+            </p>
+          </div>
+          <div class="service-box">
+            <h3>Grocery & Personal Shopping</h3>
+            <p>
+              Let us do the shopping for you – groceries, gifts, or anything
+              else – and have it delivered to your loved ones.
+            </p>
+          </div>
+          <div class="service-box">
+            <h3>Family Assistance</h3>
+            <p>
+              We offer services like arranging medical appointments, buying
+              medicines, or even organizing celebrations for your family.
+            </p>
+          </div>
+          <div class="service-box">
+            <h3>Document Delivery & Retrieval</h3>
+            <p>
+              Pick up and deliver important paperwork, saving you time and
+              effort with secure and timely service.
+            </p>
+          </div>
+          <div class="service-box">
+            <h3>Event Coordination</h3>
+            <p>
+              Organizing events for your family? Let us take care of the
+              details, from invites to catering and venue bookings.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2>What Our Clients Are Saying</h2>
+      <div class="testimonial-box">
+        <p>
+          "Wakah Errands has been a lifesaver! They handle everything I need
+          back home, and I can rest easy knowing my family is taken care of."
+        </p>
+        <p>- Sarah A.</p>
+      </div>
+      <div class="testimonial-box">
+        <p>
+          "I used their property management service, and they kept me updated
+          every step of the way. Excellent customer service!"
+        </p>
+        <p>- John M.</p>
+      </div>
+      <div class="testimonial-box">
+        <p>
+          "The grocery shopping service was fantastic. I was able to send my
+          family everything they needed, hassle-free."
+        </p>
+        <p>- Kate W.</p>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+      <h2>Choose Your Plan</h2>
+      <div class="pricing-table">
+        <div class="pricing-box">
+          <h3>Basic Plan</h3>
+          <p>$50/month</p>
+          <button>Get Started</button>
+        </div>
+        <div class="pricing-box">
+          <h3>Standard Plan</h3>
+          <p>$100/month</p>
+          <button>Get Started</button>
+        </div>
+        <div class="pricing-box">
+          <h3>Premium Plan</h3>
+          <p>$150/month</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Wakah Errands. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

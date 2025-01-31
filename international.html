@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wakah International Courier</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header / Hero Section -->
+    <header id="hero">
+        <div class="container">
+          <h1>Wakah International Courier</h1>
+          <p>
+            Fast, Reliable, and Cross-Border Deliveries Using Air Freight & Road
+            Transport
+          </p>
+          <a href="#gallery" class="cta-btn">Explore Our Services</a>
+        </div>
+      </header>
+  
+      <!-- Navigation -->
+      <nav>
+        <ul>
+          <li><a href="#gallery">Services</a></li>
+          <li><a href="#industries">Industries</a></li>
+          <li><a href="#pricing-table">Pricing</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    <style>
+    /* General Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    /* Hero Section Styling */
+    #hero {
+        background: url('./images/logistics.jpg') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+        position: relative;
+    }
+    
+    #hero .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    #hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 10px #0f0f0f;
+        margin-bottom: 10px;
+    }
+    
+    #hero p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    
+    .cta-btn {
+        display: inline-block;
+        padding: 12px 25px;
+        font-size: 1.2rem;
+        color: white;
+        background: #4bf503;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .cta-btn:hover {
+        background: #4635B1;
+    }
+    
+    /* Navigation Bar */
+    nav {
+        background: rgb(143, 143, 106);
+        padding: 15px 0;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 10px 15px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    nav ul li a:hover {
+        background: white;
+        color: #5B913B;
+        border-radius: 5px;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        #hero h1 {
+            font-size: 2.5rem;
+        }
+    
+        #hero p {
+            font-size: 1rem;
+        }
+    
+        .cta-btn {
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+
+   
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .pricing-table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #004080;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        .contact-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .contact-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+<!-- INDUSTRIES SECTION -->
+<section id="industries">
+    <div class="container">
+        <h2>Industries We Serve</h2>
+        <p>We provide reliable and efficient shipping solutions to a variety of industries worldwide.</p>
+        <div class="industries-grid">
+            
+            <div class="industry-card">
+                <img src="./icons/grocery-store.png" alt="Retail & E-Commerce">
+                <h3>Retail & E-Commerce</h3>
+                <p>Fast and secure delivery solutions for online businesses and retail chains.</p>
+            </div>
+
+            <div class="industry-card">
+                <img src="./icons/healthcare.png" alt="Healthcare & Pharmaceuticals">
+                <h3>Healthcare & Pharmaceuticals</h3>
+                <p>Specialized shipping for medical supplies and pharmaceuticals.</p>
+            </div>
+
+            <div class="industry-card">
+                <img src="./icons/automotive.png" alt="Automotive">
+                <h3>Automotive</h3>
+                <p>Efficient logistics solutions for vehicle parts and automotive industries.</p>
+            </div>
+
+            <div class="industry-card">
+                <img src="./icons/factory.png" alt="Manufacturing">
+                <h3>Manufacturing</h3>
+                <p>Seamless supply chain solutions for factories and production industries.</p>
+            </div>
+
+            <div class="industry-card">
+                <img src="./icons/air-cargo.png" alt="Freight & Cargo">
+                <h3>Freight & Cargo</h3>
+                <p>Custom freight solutions for large-scale shipments and bulk goods.</p>
+            </div>
+
+            <div class="industry-card">
+                <img src="./icons/planting.png" alt="Agriculture & Food">
+                <h3>Agriculture & Food</h3>
+                <p>Temperature-controlled shipping for fresh produce, grains, and beverages.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery">
+        <div class="container">
+            <h2>Our International Shipping services</h2>
+            <p>We offer reliable, efficient, and customized logistics solutions to meet all your shipping needs.</p>
+            
+            <div class="gallery-grid">
+
+                <!-- Card 1: Air Freight -->
+                <div class="gallery-card">
+                    <img src="./icons/international-shipping.png" alt="Air Freight">
+                    <div class="card-content">
+                        <h3>Air Freight</h3>
+                        <p>Fast and efficient air shipping solutions for urgent deliveries worldwide.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Sea Freight -->
+                <div class="gallery-card">
+                    <img src="./icons/freight.png" alt="Sea Freight">
+                    <div class="card-content">
+                        <h3>Sea Freight</h3>
+                        <p>Cost-effective shipping for large and bulk cargo via ocean transport.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Road Transport -->
+                <div class="gallery-card">
+                    <img src="./icons/transport.png" alt="Road Transport">
+                    <div class="card-content">
+                        <h3>Road Transport</h3>
+                        <p>Reliable cross-border road transport for parcels, LTL, and FTL shipments.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Warehousing -->
+                <div class="gallery-card">
+                    <img src="./icons/warehouse.png" alt="Warehousing">
+                    <div class="card-content">
+                        <h3>Warehousing</h3>
+                        <p>Secure storage solutions with real-time inventory management.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5: E-Commerce Logistics -->
+                <div class="gallery-card">
+                    <img src="./icons/shopping.png" alt="E-Commerce Logistics">
+                    <div class="card-content">
+                        <h3>E-Commerce Logistics</h3>
+                        <p>Seamless shipping and fulfillment services for online stores.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6: Customs Clearance -->
+                <div class="gallery-card">
+                    <img src="./icons/customs-clearance.png" alt="Customs Clearance">
+                    <div class="card-content">
+                        <h3>Customs Clearance</h3>
+                        <p>Hassle-free customs brokerage for smooth cross-border trade.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+<h2>Wakah Logistics - Shipping & Transport Rates</h2>
+
+<table id="pricing-table"
+class="pricing-table">
+    <tr>
+        <th>Destination</th>
+        <th>1-44 kg</th>
+        <th>45-500 kg</th>
+        <th>500-1000 kg</th>
+        <th>1000-5000 kg</th>
+        <th>5000-10000 kg</th>
+        <th>Full Truck Load (FTL) Rate</th>
+        <th>Contact</th>
+    </tr>
+    <tr>
+        <td>Uganda</td>
+        <td>$5</td>
+        <td>$4</td>
+        <td>$3.2</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$800</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+    <tr>
+        <td>Tanzania</td>
+        <td>$5</td>
+        <td>$4</td>
+        <td>$3.2</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$1250</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+    <tr>
+        <td>South Sudan</td>
+        <td>$4</td>
+        <td>$3.5</td>
+        <td>$3.0</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$2500</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+    <tr>
+        <td>Rwanda</td>
+        <td>$5</td>
+        <td>$4</td>
+        <td>$3.2</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$2500</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+    <tr>
+        <td>Burundi</td>
+        <td>$5</td>
+        <td>$4</td>
+        <td>$3.2</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$2500</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+    <tr>
+        <td>Zambia</td>
+        <td>$5</td>
+        <td>$4</td>
+        <td>$3.2</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$2500</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+    <tr>
+        <td>DRC Congo</td>
+        <td>$5</td>
+        <td>$4</td>
+        <td>$3.2</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$2800</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+   
+    <tr>
+        <td>Somalia</td>
+        <td>$5</td>
+        <td>$4</td>
+        <td>$3.2</td>
+        <td>$2.5</td>
+        <td>$1.8</td>
+        <td>$3800</td>
+        <td><a href="#" class="contact-btn">Contact Us</a></td>
+    </tr>
+</table>
+
+        <!-- Benefits Section -->
+<section id="benefits" style="background-color: #f4f9fc; padding: 50px 0; text-align: center;">
+    <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+      <h2 style="font-size: 2.5rem; font-weight: bold; color: #2c3e50; margin-bottom: 40px;">Why Choose Wakah?</h2>
+      <div class="row" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div class="benefit-card" style="flex: 1; min-width: 250px; margin: 10px; padding: 25px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+          <h4 style="font-size: 1.5rem; color: #3498db; margin-bottom: 10px;">Wide Coverage</h4>
+          <p style="font-size: 1rem; color: #7f8c8d;">Serving Uganda, Tanzania, Rwanda, South Sudan, Zambia, and Burundi.</p>
+        </div>
+        <div class="benefit-card" style="flex: 1; min-width: 250px; margin: 10px; padding: 25px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+          <h4 style="font-size: 1.5rem; color: #3498db; margin-bottom: 10px;">Fast and Secure Deliveries</h4>
+          <p style="font-size: 1rem; color: #7f8c8d;">Leveraging air and road freight for the best delivery experience.</p>
+        </div>
+        <div class="benefit-card" style="flex: 1; min-width: 250px; margin: 10px; padding: 25px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+          <h4 style="font-size: 1.5rem; color: #3498db; margin-bottom: 10px;">Custom Clearance Support</h4>
+          <p style="font-size: 1rem; color: #7f8c8d;">Hassle-free cross-border logistics and customs handling.</p>
+        </div>
+        <div class="benefit-card" style="flex: 1; min-width: 250px; margin: 10px; padding: 25px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+          <h4 style="font-size: 1.5rem; color: #3498db; margin-bottom: 10px;">Flexible Scheduling</h4>
+          <p style="font-size: 1rem; color: #7f8c8d;">Tailored shipping options for your business or personal needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+          <p>&copy; 2025 Wakah International Courier. All rights reserved.</p>
+        </footer>
+      </body>
+    </html>
+    
+    
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    body {
+        background-color: #f4f4f9;
+        text-align: center;
+    }
+    
+   /* INDUSTRIES SECTION */
+#industries {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#industries .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#industries h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#industries p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.industry-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.industry-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.industry-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.industry-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.industry-card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 60px 20px;
+    background: white;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+#gallery p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Gallery Cards */
+.gallery-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.gallery-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #gallery h2 {
+        font-size: 2rem;
+    }
+
+    #gallery p {
+        font-size: 1rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
+#gallery .gallery-card img {
+    width: 100%;         /* Ensures the image takes up full width of its container */
+    max-width: 100px;    /* Limits the image size to a max width (adjust as needed) */
+    height: auto;        /* Maintains aspect ratio */
+}
+
+/* CONTACT SECTION */
+#contact {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input, 
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+#contact input:focus, 
+#contact textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+}
+
+#contact textarea {
+    height: 150px;
+    resize: none;
+}
+
+#contact button {
+    background: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#contact button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+      
+  </body>
+</html>

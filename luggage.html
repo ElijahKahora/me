@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luggage Storage</title>
+    <link rel="stylesheet" href="luggage.css" />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="logo">
+        <a href="#">Luggage Storage</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#book">Locations</a></li>
+          <li><a href="#price">Pricing</a></li>
+          <li><a href="#book" class="cta-btn">Create Account</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Luggage Storage</h1>
+        <h3>
+          Safe, convenient, and affordable luggage storage options for travelers
+          in Nairobi.
+        </h3>
+        <p>
+          Whether you're exploring the city, on a layover, or in need of
+          reliable storage, we've got you covered with safe, affordable, and
+          easily accessible luggage storage options.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Learn More</a>
+          <a href="#book" class="btn btn-secondary">Book Now</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./images/luggage-2.jpg" alt="Luggage" />
+      </div>
+    </section>
+    <hr />
+
+    <!-- About Section -->
+    <section id="#About"  class="about">
+      <div class="about-image">
+        <img src="./images/luggage-1.jpg" alt="Luggage" />
+      </div>
+      <div 
+      class="about-content">
+        <h2>About Us</h2>
+        <p>
+          We provide safe storage solutions in Nairobi, whether you’re exploring
+          the city or waiting for your next journey. Rest assured that your
+          belongings are in good hands.
+        </p>
+        <a href="#book" class="btn">Book Now</a>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Features Section -->
+
+    <section class="features">
+      <div class="features-content">
+        <h2>Features</h2>
+        <ul>
+          <li>Pick & Drop Service Available</li>
+          <li>24/7 CCTV Surveillance</li>
+          <li>Centrally Located in Nairobi</li>
+          <li>24/7 Customer Support</li>
+        </ul>
+        <div class="features-btn">
+          <a href="#book" class="btn">Book Now</a>
+        </div>
+      </div>
+      <div class="features-image">
+        <img
+          src="./images/hero-luggage.jpg"
+          alt="Wakah-Luggage Store Nairobi"
+        />
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <p>
+            "Luggage Storage services were excellent during my layover in
+            Nairobi."
+          </p>
+          <h3>– Sarah</h3>
+        </div>
+        <div class="testimonial">
+          <p>
+            "The secure and central location made it easy to explore while
+            storing my luggage."
+          </p>
+          <h3>– James</h3>
+        </div>
+        <div class="testimonial">
+          <p>
+            "I would highly recommend them for their professionalism and quick
+            service!"
+          </p>
+          <h3>– Thomas</h3>
+        </div>
+      </div>
+    </section id="book">
+      <div class="booking-form">
+          <h2>Book Your Luggage Storage</h2>
+          <form action="#">
+              <label for="location">Select Location:</label>
+              <select id="location" name="location">
+                  <option value="Nairobi CBD">Nairobi CBD</option>
+                  <option value="JKIA">JKIA</option>
+                  <option value="Wilson Airport">Wilson Airport</option>
+                  <option value="Maasai Market">Maasai Market</option>
+                  <option value="Tom Mboya">Tom Mboya</option>
+                  <option value="Westlands">Westlands</option>
+                  <option value="Karen">Karen</option>
+                  <option value="Mombasa">Mombasa</option>
+                  <option value="Diani">Diani</option>
+                  <option value="Malindi">Malindi</option>
+                  <option value="Kisumu">Kisumu</option>
+                  <option value="Nakuru">Nakuru</option>
+              </select>
+              
+              <label for="date">Select Date:</label>
+              <input type="date" id="date" name="date">
+  
+              <label for="time">Select Time:</label>
+              <input type="time" id="time" name="time">
+  
+              <button type="submit">Book Storage</button>
+          </form>
+      </div>
+        <!-- Pricing Section -->
+        <div class="pricing">
+            <h2>Pricing</h2>
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Bag Size</th>
+                        <th>Hourly Rate</th>
+                        <th>Daily Rate (1 Week)</th>
+                        <th>Monthly Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Large</td>
+                        <td>35 Ksh/hr</td>
+                        <td>200 Ksh/day</td>
+                        <td>4800 Ksh/month</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>30 Ksh/hr</td>
+                        <td>180 Ksh/day</td>
+                        <td>4000 Ksh/month</td>
+                    </tr>
+                    <tr>
+                        <td>Small</td>
+                        <td>25 Ksh/hr</td>
+                        <td>150 Ksh/day</td>
+                        <td>3000 Ksh/month</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Booking Form -->
+        <div  id="book" class="booking-form">
+            <h2>Book Your Luggage Storage</h2>
+            <form id="bookingForm">
+                <table class="form-table">
+                    <tr>
+                        <td><label for="customerName">Full Name:</label></td>
+                        <td><input type="text" id="customerName" name="customerName" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td><input type="text" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="location">Location:</label></td>
+                        <td><input type="text" id="location" name="location" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pickUp">Pick Up Location:</label></td>
+                        <td><input type="text" id="pickUp" name="pickUp" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="delivery">Delivery Location:</label></td>
+                        <td><input type="text" id="delivery" name="delivery" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="bagSize">Bag Size:</label></td>
+                        <td>
+                            <select id="bagSize" name="bagSize" required>
+                                <option value="large">Large</option>
+                                <option value="medium">Medium</option>
+                                <option value="small">Small</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="storageDuration">Duration:</label></td>
+                        <td>
+                            <input type="radio" name="duration" value="hourly" checked> Hourly
+                            <input type="radio" name="duration" value="daily"> Daily
+                            <input type="radio" name="duration" value="monthly"> Monthly
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="storageDate">Select Storage Date:</label></td>
+                        <td><input type="text" id="storageDate" name="storageDate" required></td>
+                    </tr>
+                </table>
+                <div class="submit">
+                    <button type="submit">Submit Booking</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Display Pricing Based on Selection -->
+        <div id="pricingInfo" style="margin-top: 20px;">
+            <h3>Your Estimated Price:</h3>
+            <p id="price"></p>
+        </div>
+    </div>
+ <!-- Footer Section -->
+ <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <p>Tel: +254 769 863 108 | +254 712 797 947</p>
+        <p>7th Floor, City House, Wabera Street, Nairobi</p>
+      </div>
+      <div class="footer-logo">
+        <img src="./icons/world-map.png" alt="Globe" />
+      </div>
+    </div>
+  </footer>
+</head>
+<body>
+</html>

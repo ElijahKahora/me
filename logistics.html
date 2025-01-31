@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="logistics.css" />
+    <link rel="stylesheet" href="logistics.js" />
+    <title>Wakah Logistics</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Wakah Logistics</h1>
+      <p>
+        Seamless courier services within Kenya and across East and Southern
+        Africa.
+      </p>
+    </header>
+    <section class="hero">
+      <div class="slider">
+        <div class="slide active">
+          <h2>Global Logistics Solutions</h2>
+          <p>
+            Fast, reliable, and tailored services for all your logistics needs.
+          </p>
+        </div>
+        <div class="slide">
+          <h2>Seamless Shipping Worldwide</h2>
+          <p>
+            From freight forwarding to courier delivery, we've got you covered.
+          </p>
+        </div>
+        <div class="slide">
+          <h2>Your Trusted Logistics Partner</h2>
+          <p>
+            Door-to-door delivery, warehousing, and customs clearance made easy.
+          </p>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h3>Freight Forwarding</h3>
+          <p>
+            Efficient air and sea freight solutions to meet your business needs.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Courier Services</h3>
+          <p>Fast and reliable parcel delivery across the globe.</p>
+        </div>
+        <div class="service">
+          <h3>Warehousing</h3>
+          <p>Secure storage facilities with real-time inventory tracking.</p>
+        </div>
+        <div class="service">
+          <h3>Customs Clearance</h3>
+          <p>Simplifying international trade with expert customs solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Calculator -->
+    <section id="pricing" class="pricing">
+      <h2>Pricing Calculator</h2>
+      <form id="calculator-form">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" required />
+        <label for="distance">Distance (km):</label>
+        <input type="number" id="distance" required />
+        <button type="button" id="calculate-price">Calculate</button>
+      </form>
+      <p id="price-result">Total Price: $<span>0</span></p>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="book" class="booking">
+      <h2>Book Your Service</h2>
+      <form id="booking-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <label for="service">Service:</label>
+        <select id="service">
+          <option>Freight Forwarding</option>
+          <option>Courier Services</option>
+          <option>Warehousing</option>
+          <option>Customs Clearance</option>
+        </select>
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Wakah Logistics. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <div class="container">
+      <!-- Same Day Delivery Section -->
+      <section>
+        <h2>Same Day Delivery</h2>
+        <p>
+          Need your parcel delivered urgently? Our Same Day Delivery service
+          ensures your package reaches its destination on the same day, anywhere
+          in Kenya. Whether it’s personal or business deliveries, we guarantee
+          speed and reliability.
+        </p>
+      </section>
+
+      <!-- Next Day Delivery Section -->
+      <section>
+        <h2>Next Day Delivery</h2>
+        <p>
+          When time isn’t as critical, our Next Day Delivery service offers a
+          cost-effective solution for sending packages across Kenya. We ensure
+          your deliveries are completed the following day with utmost care.
+        </p>
+      </section>
+
+      <!-- Cross Border Logistics Section -->
+      <section>
+        <h2>Cross-Border Logistics</h2>
+        <p>
+          Expand your reach with our efficient cross-border logistics services.
+          We connect Kenya to Uganda, Tanzania, Rwanda, South Sudan, and Zambia.
+          From documentation to delivery, we handle every step to make your
+          cross-border shipments hassle-free.
+        </p>
+      </section>
+
+      <!-- Customs Clearance Section -->
+      <section>
+        <h2>Customs Clearance</h2>
+        <p>
+          Struggling with customs paperwork? Let us take the stress out of
+          international shipping. Our customs clearance experts ensure your
+          goods pass through borders smoothly and comply with all regulations.
+        </p>
+      </section>
+
+      <!-- Featured Services Grid -->
+      <section>
+        <h2>Why Choose Us?</h2>
+        <div class="service-grid">
+          <div class="service-card">
+            <h3>Reliable Delivery</h3>
+            <p>
+              We prioritize reliability and ensure every delivery is made on
+              time.
+            </p>
+          </div>
+          <div class="service-card">
+            <h3>Cross-Border Experts</h3>
+            <p>We specialize in delivering across East and Southern Africa.</p>
+          </div>
+          <div class="service-card">
+            <h3>Flexible Options</h3>
+            <p>Choose from same-day, next-day, or custom delivery solutions.</p>
+          </div>
+          <div class="service-card">
+            <h3>Customs Expertise</h3>
+            <p>
+              We handle all customs formalities to make your shipping seamless.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Wakah Logistics. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

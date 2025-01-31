@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wakah E-Commerce Fulfillment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Wakah E-Commerce Fulfillment Services</h1>
+        <p>
+          Efficient, reliable, and scalable solutions for your online business.
+        </p>
+        <div id="img" class="hero-img"></div>
+        <a href="#contact" class="cta">Learn More</a>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>What is E-Commerce Fulfillment?</h2>
+        <p>
+          E-commerce fulfillment is the process of receiving, storing, packing,
+          and shipping online orders to customers. It ensures a seamless
+          experience, from order processing to delivery.
+        </p>
+      </div>
+    </section>
+
+    <section id="process" class="process">
+      <div class="container">
+        <h2>Our Fulfillment Process</h2>
+        <div class="steps">
+          <div class="step">
+            <h3>1. Inventory Storage</h3>
+            <p>
+              We receive, store, and manage your inventory in our
+              state-of-the-art warehouses.
+            </p>
+          </div>
+          <div class="step">
+            <h3>2. Order Processing</h3>
+            <p>
+              Orders are verified, and inventory is updated to ensure accurate
+              availability.
+            </p>
+          </div>
+          <div class="step">
+            <h3>3. Picking</h3>
+            <p>Our team selects the right products quickly and efficiently.</p>
+          </div>
+          <div class="step">
+            <h3>4. Packing</h3>
+            <p>
+              Secure and branded packaging ensures your items arrive in perfect
+              condition.
+            </p>
+          </div>
+          <div class="step">
+            <h3>5. Shipping</h3>
+            <p>
+              We partner with top carriers for timely and affordable delivery.
+            </p>
+          </div>
+          <div class="step">
+            <h3>6. Returns Management</h3>
+            <p>
+              Efficient reverse logistics to handle customer returns seamlessly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+      <div class="container">
+        <h2>Why Choose Us?</h2>
+        <ul>
+          <li>Scalability for growing businesses</li>
+          <li>Cost-effective solutions</li>
+          <li>Fast and reliable shipping</li>
+          <li>Enhanced customer experience</li>
+          <li>Focus on your core business while we handle logistics</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="challenges" class="challenges">
+      <div class="container">
+        <h2>Addressing Fulfillment Challenges</h2>
+        <p>
+          We tackle issues like inventory management, shipping costs, and
+          reverse logistics to ensure a hassle-free experience for our clients.
+        </p>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions, feel free to reach out. We are here to help!
+      </p>
+      <form action="#" method="post">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <h2>Partner with Wakah</h2>
+        <p>
+          Let us help you streamline your e-commerce fulfillment. Contact us
+          today!
+        </p>
+        <a href="#" class="cta">Get Started</a>
+      </div>
+    </footer>
+  </body>
+</html>
+<style>
+  /* Reset default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  /* General Body Styles */
+  body {
+    background-color: #854747;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Header (Hero Section) */
+  .hero {
+    background: image(\images\pexels-shvetsa-4482900.jpg);
+    color: black;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+  }
+
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .hero img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+  }
+
+  .cta {
+    display: inline-block;
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta:hover {
+    background-color: #e64a19;
+  }
+
+  /* About Section */
+  .about {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Process Section */
+  .process {
+    background-color: #fafafa;
+    padding: 60px 20px;
+  }
+
+  .process h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .step {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .step h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+
+  .step p {
+    font-size: 1rem;
+  }
+
+  /* Benefits Section */
+  .benefits {
+    background-color: white;
+    padding: 60px 20px;
+  }
+
+  .benefits h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+
+  .benefits ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .benefits li {
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Challenges Section */
+  .challenges {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .challenges h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .challenges p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #004d8d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .footer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .footer p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .footer .cta {
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+
+  .footer .cta:hover {
+    background-color: #e64a19;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .steps {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .benefits ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+    }
+
+    .footer h2 {
+      font-size: 2rem;
+    }
+
+    .footer p {
+      font-size: 1rem;
+    }
+  }
+  .contact {
+    background-color: #ff6f61;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+  }
+
+  button {
+    background-color: #fff;
+    color: #ff6f61;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ff3d2f;
+    color: white;
+  }
+</style>
